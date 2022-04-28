@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "qUASBP0s3Nzbcq6rnD69Laq8hSn5ifDhlBpOxAoYqPU=",
+  "Source": "errata-backend-2",
+  "BasePath": "_content/errata-backend-2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
