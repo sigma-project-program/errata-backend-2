@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/medhanshhinduja/Desktop/errata-backend-2/errata-backend-2.csproj": {}
+    "/Users/prabhavkhera/Documents/errata-backend-2/errata-backend-2/Desktop/errata-backend-2/errata-backend-2.csproj": {}
   },
   "projects": {
-    "/Users/medhanshhinduja/Desktop/errata-backend-2/errata-backend-2.csproj": {
+    "/Users/prabhavkhera/Documents/errata-backend-2/errata-backend-2/Desktop/errata-backend-2/errata-backend-2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/medhanshhinduja/Desktop/errata-backend-2/errata-backend-2.csproj",
+        "projectUniqueName": "/Users/prabhavkhera/Documents/errata-backend-2/errata-backend-2/Desktop/errata-backend-2/errata-backend-2.csproj",
         "projectName": "errata-backend-2",
-        "projectPath": "/Users/medhanshhinduja/Desktop/errata-backend-2/errata-backend-2.csproj",
-        "packagesPath": "/Users/medhanshhinduja/.nuget/packages/",
-        "outputPath": "/Users/medhanshhinduja/Desktop/errata-backend-2/obj/",
+        "projectPath": "/Users/prabhavkhera/Documents/errata-backend-2/errata-backend-2/Desktop/errata-backend-2/errata-backend-2.csproj",
+        "packagesPath": "/Users/prabhavkhera/.nuget/packages/",
+        "outputPath": "/Users/prabhavkhera/Documents/errata-backend-2/errata-backend-2/Desktop/errata-backend-2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/medhanshhinduja/.nuget/NuGet/NuGet.Config"
+          "/Users/prabhavkhera/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
