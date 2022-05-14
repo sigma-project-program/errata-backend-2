@@ -1326,19 +1326,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/prabhavkhera/.nuget/packages/": {}
+    "/Users/rahultandon/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/prabhavkhera/Documents/errata-backend-2/errata-backend-2/Desktop/errata-backend-2/errata-backend-2.csproj",
+      "projectUniqueName": "/Users/rahultandon/dev/projects/errata/errata-backend-2/errata-backend-2.csproj",
       "projectName": "errata-backend-2",
-      "projectPath": "/Users/prabhavkhera/Documents/errata-backend-2/errata-backend-2/Desktop/errata-backend-2/errata-backend-2.csproj",
-      "packagesPath": "/Users/prabhavkhera/.nuget/packages/",
-      "outputPath": "/Users/prabhavkhera/Documents/errata-backend-2/errata-backend-2/Desktop/errata-backend-2/obj/",
+      "projectPath": "/Users/rahultandon/dev/projects/errata/errata-backend-2/errata-backend-2.csproj",
+      "packagesPath": "/Users/rahultandon/.nuget/packages/",
+      "outputPath": "/Users/rahultandon/dev/projects/errata/errata-backend-2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/prabhavkhera/.nuget/NuGet/NuGet.Config"
+        "/Users/rahultandon/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
