@@ -28,10 +28,12 @@ RUN dotnet restore -r linux-x64
 COPY errata-backend-2/. ./errata-backend-2/
 WORKDIR /source/errata-backend-2
 RUN dotnet add package Microsoft.EntityFrameworkCore.Analyzers --version 6.0.5
+RUN dotnet ef migrations add InitialCreate
+RUn dotnet ef database update
 RUN dotnet publish -c release -o /app -r linux-x64 --self-contained false --no-restore
 
 # final stage/image
 FROM mcr.microsoft.com/dotnet/aspnet:6.0-focal-amd64
 WORKDIR /app
 COPY --from=build /app ./
-ENTRYPOINT ["./aspnetapp"]
+ENTRYPOINT ["./errata-backend-2"]
