@@ -533,7 +533,7 @@
         }
       }
     },
-    "net6.0/linux-x64": {
+    "net6.0/osx.11.0-x64": {
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -842,7 +842,7 @@
           "lib/netstandard2.0/_._": {}
         },
         "native": {
-          "runtimes/linux-x64/native/libe_sqlite3.so": {}
+          "runtimes/osx-x64/native/libe_sqlite3.dylib": {}
         }
       },
       "SQLitePCLRaw.provider.e_sqlite3/2.0.6": {
@@ -1805,7 +1805,7 @@
       "outputPath": "/Users/rahultandon/dev/projects/errata/docker_basics/errata-backend-2/errata-backend-2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/rahultandon/.config/NuGet/NuGet.Config"
+        "/Users/rahultandon/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1856,16 +1856,16 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
-            "version": "[6.0.5, 6.0.5]"
+            "name": "Microsoft.AspNetCore.App.Runtime.osx-x64",
+            "version": "[6.0.3, 6.0.3]"
           },
           {
-            "name": "Microsoft.NETCore.App.Host.linux-x64",
-            "version": "[6.0.5, 6.0.5]"
+            "name": "Microsoft.NETCore.App.Host.osx-x64",
+            "version": "[6.0.3, 6.0.3]"
           },
           {
-            "name": "Microsoft.NETCore.App.Runtime.linux-x64",
-            "version": "[6.0.5, 6.0.5]"
+            "name": "Microsoft.NETCore.App.Runtime.osx-x64",
+            "version": "[6.0.3, 6.0.3]"
           }
         ],
         "frameworkReferences": {
@@ -1876,11 +1876,11 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.105/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
-      "linux-x64": {
+      "osx.11.0-x64": {
         "#import": []
       }
     }

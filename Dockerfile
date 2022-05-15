@@ -22,6 +22,7 @@ WORKDIR /source
 # copy csproj and restore as distinct layers
 COPY errata-backend-2.sln ./errata-backend-2.sln
 COPY errata-backend-2/*.csproj ./errata-backend-2/
+# RUN dotnet restore -r linux-x64
 RUN dotnet restore -r linux-x64
 
 # copy everything else and build app
@@ -38,5 +39,7 @@ RUN dotnet publish -c release -o /app -r linux-x64 --self-contained false --no-r
 # final stage/image
 FROM mcr.microsoft.com/dotnet/aspnet:6.0-focal-amd64
 WORKDIR /app
+RUN dotnet ef migrations add InitialCreate3
+RUn dotnet ef database update
 COPY --from=build /app ./
 ENTRYPOINT ["./errata-backend-2"]

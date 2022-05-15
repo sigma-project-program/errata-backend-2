@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zKP/+6ja9WrfHW9Y1aKCpyx1sN9hR0LY2IWBNQ8jNQupwSn0XCU8HW5fmEAcFlDcvISu1SBR4c/JYs93nLwwLQ==",
+  "dgSpecHash": "IzKLTc/Bxtjb0d1UqL4WmHYp+X/0lMvH3+s7vDmmEc+YIddJP10WeQYlnNpbYV5DT6w+369OCxrGmnEMJuyNmQ==",
   "success": true,
   "projectFilePath": "/Users/rahultandon/dev/projects/errata/docker_basics/errata-backend-2/errata-backend-2/errata-backend-2.csproj",
   "expectedPackageFiles": [
@@ -40,9 +40,9 @@
     "/Users/rahultandon/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "/Users/rahultandon/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
     "/Users/rahultandon/.nuget/packages/system.text.json/6.0.0/system.text.json.6.0.0.nupkg.sha512",
-    "/Users/rahultandon/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/6.0.5/microsoft.aspnetcore.app.runtime.linux-x64.6.0.5.nupkg.sha512",
-    "/Users/rahultandon/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.5/microsoft.netcore.app.host.linux-x64.6.0.5.nupkg.sha512",
-    "/Users/rahultandon/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/6.0.5/microsoft.netcore.app.runtime.linux-x64.6.0.5.nupkg.sha512"
+    "/Users/rahultandon/.nuget/packages/microsoft.netcore.app.runtime.osx-x64/6.0.3/microsoft.netcore.app.runtime.osx-x64.6.0.3.nupkg.sha512",
+    "/Users/rahultandon/.nuget/packages/microsoft.aspnetcore.app.runtime.osx-x64/6.0.3/microsoft.aspnetcore.app.runtime.osx-x64.6.0.3.nupkg.sha512",
+    "/Users/rahultandon/.nuget/packages/microsoft.netcore.app.host.osx-x64/6.0.3/microsoft.netcore.app.host.osx-x64.6.0.3.nupkg.sha512"
   ],
   "logs": []
 }
