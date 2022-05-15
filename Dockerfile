@@ -32,14 +32,14 @@ RUN dotnet add package Microsoft.EntityFrameworkCore.Analyzers --version 6.0.5
 RUN dotnet add package Microsoft.EntityFrameworkCore
 RUN dotnet tool install --global dotnet-ef
 ENV PATH="$PATH:/root/.dotnet/tools"
-# RUN dotnet ef migrations add InitialCreate2
-# RUN dotnet ef database update
+RUN dotnet ef migrations add InitialCreate2
+RUN dotnet ef database update
 RUN dotnet publish -c release -o /app -r linux-x64 --self-contained false --no-restore
 
 # final stage/image
 FROM mcr.microsoft.com/dotnet/aspnet:6.0-focal-amd64
 WORKDIR /app
-RUN dotnet ef migrations add InitialCreate3
-RUn dotnet ef database update
+# RUN dotnet ef migrations add InitialCreate3
+# RUn dotnet ef database update
 COPY --from=build /app ./
 ENTRYPOINT ["./errata-backend-2"]
