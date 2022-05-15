@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.810.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "errata-backend-2", "errata-backend-2.csproj", "{5E4B2A90-1204-4F9F-9D20-D9AA5804E438}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "errata-backend-2", "./errata-backend-2/errata-backend-2.csproj", "{5E4B2A90-1204-4F9F-9D20-D9AA5804E438}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
